@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp">
+
+    <ImageView
+            android:id="@+id/timeline_item_album-art"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="1dp"
+            android:contentDescription="TODO"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/timeline_item_album-art"
+            android:orientation="vertical"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingTop="5dp"
+            >
+
+        <TextView
+                android:id="@+id/timeline_itme_event_owner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="Hasan"
+                />
+
+
+        <TextView
+                android:id="@+id/timeline_item_song_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingTop="3dp"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                tools:text="Ey yar"
+                />
+
+        <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:id="@+id/timeline_item_last_line">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="5dp"
+                android:singleLine="true"
+                android:textSize="13sp"
+                tools:text="Remaining:"
+                />
+            <TextView
+                    android:id="@+id/timeline_item_remaining_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_gravity="right"
+                    tools:text="02:32"/>
+        </GridLayout>
+    <
+
+    </LinearLayout>
+</RelativeLayout>

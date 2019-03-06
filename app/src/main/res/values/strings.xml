@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Moodical</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_navigation_timeline_item">Timeline</string>
+    <string name="title_navigation_browse_item">Browse</string>
+    <string name="title_navigation_profile_item">Profile</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="error">Login failed.</string>
+    <string name="invalid_user_or_pass">Invalid username or password.</string>
+    <string name="ok">OK</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="display_name">Display Name</string>
+    <string name="songs">Browse</string>
+    <string name="timeline">Timeline</string>
+</resources>
